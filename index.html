@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Services</title>
+	<style type="text/css">
+		.navbar
+		{
+			
+			display: flex;
+			height:90px;
+			align-items: center;
+		}
+		ul
+		{
+			display: flex;
+			list-style-type: none;
+			/*border: 1px solid black;*/
+			padding-left: 10px;
+			align-items: center;
+
+		}
+		li
+		{
+			padding-left: 35px;
+
+		}
+		a
+		{
+			text-decoration: none;
+			text-decoration-line: none;
+			color: #608a24;
+			font-family: 'Open Sans', sans-serif;
+			font-size: 15px;
+		}
+		.logo-nav
+		{
+			/*border:2px solid black;*/
+			display: flex;
+			margin: auto;
+		}
+		/*hr
+		{
+			/*border-bottom: 1px solid #1f1209;
+			box-shadow: 0 20px 20px -20px #333;
+		}*/
+
+		.hand
+		{
+			width:815px;
+			height:300px;
+			
+			
+		}
+		.image
+		{
+			/*border: 2px solid black;*/
+			align-items: center;
+			margin: auto;
+			width:815px;
+
+		}
+		.container
+		{
+			 position: relative;
+  			text-align: center;
+  			color: black;
+		}
+		.text
+		{
+			position: absolute;
+  			bottom: -20px;
+  			left: 380px;
+  			/*border: 2px solid white;*/
+  			background-color: white;
+  			padding:5px 10px; 
+  			border-radius: 10px;
+		}
+		.membership
+		{
+
+			/*border: 2px solid black;*/
+			width: 815px;
+			margin: auto;
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+		.membership h4
+		{
+			text-align:center;
+			/*border: 1px solid black;*/
+			font-family: 'Open Sans',sans-serif;
+			font-size: 20px;
+			font-weight: 500;
+
+		}
+		.membership p
+		{
+			text-align: center;
+
+			font-family: 'Open Sans',sans-serif;
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 30px;
+
+		}
+		.man
+		{
+			width:500px;
+			height:500px;
+		}
+		.whyto
+		{
+			display:flex;
+			/*border: 2px solid black;*/
+			align-content: center;
+			margin: auto;
+			background-color: #f9f9f9;
+			height: 540px;
+			font-family: 'Open Sans',sans-serif;
+		}
+		.whyto p
+		{
+			font-family: 'Open Sans',sans-serif;
+			line-height: 30px;
+		}
+
+		.text-container
+		{	
+			/*border: 2px solid black;*/
+			width:400px;
+			padding: 10px;
+			padding-right: 20px;
+		}
+		.text-img
+		{	display:flex;
+			margin: auto;
+		}
+		.imp
+		{	/*border: 2px solid black;*/
+			margin:auto;
+		}
+		.handline
+		{	
+			/*border:2px solid black;*/
+			width: 900px;
+			height:180px;
+			margin-left: 205px;
+
+
+		}
+		.importancetext
+		{	/*border:2px solid black;*/
+			margin: auto;
+			width:800px;
+		}
+		.importancetext h2
+		{
+			text-align: center;
+			margin: auto;
+
+		}
+		.importancetext p
+		{
+			text-align: center;
+		}
+		.img-text
+		{
+			display: flex;
+		}
+		.jump
+		{	/*border: 2px solid black;*/
+			width: 500px;
+			height:500px;
+			padding-right: 40px;
+			padding-bottom: 40px;
+		}
+		.img-container
+		{	/*border: 2px solid black;*/
+			width:450px;
+			padding-left: 50px;
+		}
+		.img-text
+		{
+			/*border:2px dashed green;*/
+			margin: auto;
+			width:1000px;
+		}
+		.importancetext h2
+		{
+			font-family: 'Open Sans',sans-serif;
+		}
+		.importancetext p
+		{
+			font-family: 'Open Sans',sans-serif;
+			font-size: 14px;
+			line-height: 30px;
+		}
+
+		.help
+		{
+			background-color: #f9f9f9
+		}
+
+		.copyright
+		{
+			height: 100px;
+			background-color: #f9f9f9;
+			text-align:center;
+			padding-top: 50px;		}
+
+		.image p
+		{
+			color: #608a24;
+			font-size: 20px;
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 15px;
+		}
+		.text-container p
+		{
+			font-family: 'Open Sans',sans-serif;
+			line-height: 30px;
+			font-size: 14px;
+		}
+		.img-container h2
+		{
+			font-family: 'Open Sans',sans-serif;
+			line-height: 30px;
+			font-size: 20px;
+		}
+		.img-container p
+		{
+			font-family: 'Open Sans',sans-serif;
+			line-height: 30px;
+			font-size: 14px;
+		}
+	</style>
+</head>
+<body>
+	<div class="navbar">
+		<div class="logo-nav">
+		<img src="assets/images/logo.png" style="width: 120px;/*border: 2px solid red;*/margin-right: 5px;padding: 5px 0px 5px 0px;" alt="logo">
+		<img src="assets/icons/Icon ionic-md-home@2x.png" style="width: 20px;height: 20px;align-items: center;padding-top: 18px;">
+		
+
+		<ul>
+			 <li><a href="" >About Us</a></li>
+             <li><a href="" >Services</a></li>
+             <li><a href="" >News</a></li>
+             <li><a href="" >DIY Portal</a></li>
+             <li><a href="">Education</a></li>
+             <li><a href="" >Blog</a></li>
+             <li><a href="">FAQ</a></li>
+             <li><a href="">Contact</a></li>
+
+		</ul>
+		<img src="assets/icons/Rectangle 1@2x.png" style="width: 100px;height: 35px;padding-top: 15px;padding-left: 8px;">
+		</div>
+	</div>
+	<hr>
+	<div class="container">	
+		<div class="image">
+			<img class="hand" src="assets/icons/Mask.jpg">
+			<p class="text">Services</p>
+		</div>
+	</div>
+
+
+	<div class="membership">
+		<b><h4>Our Membership</h4></b>
+		<p>
+			But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure? On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee.
+
+		</p>
+
+	</div>
+
+	<div class="whyto">
+		<div class="text-img">
+		<div class="text-container">
+			<h2>
+			Why to take</h2>
+			<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p><br><br><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Lorem ipsum dolor sit amet, consetetur sadipscing elitrliquyam erat, sed diam voluptua. At vero
+		</p>
+		</div>
+		<img class="man" src="assets/icons/Rectangle_1066.jpg">
+	</div>
+</div>
+
+	<div class="imp">
+		<img class="handline" src="assets/icons/handline.jpg" style="padding: 20px 0 0 20px;">
+
+		<div class="importancetext">
+			<h2 style="padding-top: 20px;">
+				Importance of Membership
+			</h2>
+			<p style="padding-bottom: 20px;">
+				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet
+			</p>
+		</div>
+
+	</div>
+
+	<div class="help">
+
+		<div class="img-text">
+			<img class="jump" src="assets/icons/Rectangle_1066_cj.png">
+		<div class="img-container">
+			<h2>
+			Where it will Help</h2>
+			<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Lorem ipsum dolor sit amet, consetetur sadipscing elitrliquyam erat, sed diam voluptua. At vero
+		</p>
+		</div>
+
+	</div>
+
+	</div>
+
+
+	<div style="height: 50px;background-color: white">
+		
+	</div>
+
+	<div class="copyright">
+		<footer>
+			<span>&#169;</span>
+			Copyright 2020. WeeW pvt ltd
+
+		</footer>
+		
+	</div>
+
+</body>
+</html>
