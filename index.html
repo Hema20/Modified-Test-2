@@ -107,6 +107,8 @@
 		{
 			width:500px;
 			height:500px;
+			margin: auto;
+			padding-left: 50px;
 		}
 		.whyto
 		{
@@ -114,9 +116,11 @@
 			/*border: 2px solid black;*/
 			align-content: center;
 			margin: auto;
+			/*background-color: green;*/
 			background-color: #f9f9f9;
 			height: 540px;
 			font-family: 'Open Sans',sans-serif;
+			padding: 10px;
 		}
 		.whyto p
 		{
@@ -166,13 +170,18 @@
 		.img-text
 		{
 			display: flex;
+			padding:20px;
 		}
 		.jump
 		{	/*border: 2px solid black;*/
-			width: 500px;
+			/*width: 500px;
 			height:500px;
 			padding-right: 40px;
-			padding-bottom: 40px;
+			padding-bottom: 40px;*/
+			width:350px;
+			height:350px;
+			margin: auto;
+			padding-right: 30px;
 		}
 		.img-container
 		{	/*border: 2px solid black;*/
@@ -198,7 +207,8 @@
 
 		.help
 		{
-			background-color: #f9f9f9
+			background-color: #f9f9f9;
+			/*background-color: green;*/
 		}
 
 		.copyright
@@ -233,13 +243,22 @@
 			line-height: 30px;
 			font-size: 14px;
 		}
+		.top-right {
+  			position: absolute;
+  			top: 44px;
+  			right: 205px;
+  			color: white;
+  			font-family: 'Open Sans',sans-serif;
+  			font-size: 15px;
+  		}
+}
 	</style>
 </head>
 <body>
 	<div class="navbar">
 		<div class="logo-nav">
 		<img src="assets/images/logo.png" style="width: 120px;/*border: 2px solid red;*/margin-right: 5px;padding: 5px 0px 5px 0px;" alt="logo">
-		<img src="assets/icons/Icon ionic-md-home@2x.png" style="width: 20px;height: 20px;align-items: center;padding-top: 18px;">
+		<img src="assets/icons/Icon ionic-md-home@2x.png" style="width: 20px;height: 20px;align-items: center;padding-top: 18px;padding-left: 13px;padding-right: -30px;">
 		
 
 		<ul>
@@ -253,7 +272,8 @@
              <li><a href="">Contact</a></li>
 
 		</ul>
-		<img src="assets/icons/Rectangle 1@2x.png" style="width: 100px;height: 35px;padding-top: 15px;padding-left: 8px;">
+		<img src="assets/icons/Rectangle 1@2x.png" style="width: 100px;height: 35px;padding-top: 12px;padding-left: 25px;">
+		<div class="top-right">Log Out</div>
 		</div>
 	</div>
 	<hr>
